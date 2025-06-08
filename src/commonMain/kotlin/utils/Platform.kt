@@ -1,4 +1,5 @@
-package com.apps.core.utils
+package utils
+
 
 interface LocalPlatform {
     val name: String

@@ -1,6 +1,6 @@
-package com.apps.core.commands
+package commands
 
-import com.apps.core.utils.getPlatform
+import utils.getPlatform
 import kotlinx.cli.*
 
 @OptIn(ExperimentalCli::class)

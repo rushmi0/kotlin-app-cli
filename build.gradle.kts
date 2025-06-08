@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.kotlinxSerialization)
 }
 
-group = "com.apps.core"
+group = "apps.cli"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -31,7 +31,7 @@ kotlin {
     nativeTarget.apply {
         binaries {
             executable {
-                entryPoint = "com.apps.core.main"
+                entryPoint = "main"
             }
         }
     }
